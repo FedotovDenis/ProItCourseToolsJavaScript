@@ -1,0 +1,14 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import url('https://unpkg.com/tailwindcss@^3/dist/tailwind.min.css');
+
+.dark {
+  background-color: #222;
+  color: #fff;
+}
+
+body {
+  transition: background-color 0.2s ease-in-out;
+}
+

@@ -1,0 +1,39 @@
+.baseButton {
+  padding: 10px;
+  border-radius: 5px;
+  color: black;
+  background-color: white;
+}
+
+.dangerButton {
+  composes: baseButton;
+  background-color: red;
+}
+
+
+/*
+Домашне завдання Сучасний CSS Урок 4
+Створіть невеликий приклад HTML-документу, використовуючи атомарний CSS. 
+Додайте до нього три класи: один для зміни кольору тексту на червоний, 
+другий для встановлення відступу зліва в 10px, та третій для зміни шрифту на Arial. 
+Застосуйте ці класи до відповідних елементів у вашому HTML-документі.
+*/
+
+
+/*
+.changingTheColorOfTheTextToRed {
+  color: black
+}
+
+.newChangingTheColorOfTheTextToRed {
+  composes: changingTheColorOfTheTextToRed;
+  color: red;
+}
+
+.settingTheIndentToTheLeft{
+  padding-left: 10px;
+}
+.fontChangesToArial {
+  font-family: Arial, sans-serif;
+}
+*/
