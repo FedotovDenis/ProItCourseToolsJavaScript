@@ -12,7 +12,8 @@
     "storybook": "storybook dev",
     "tw": "npx tailwindcss -i ./src/index.css - 0 ./dist/bundle.css --watch",
     "boundle": "rollup - c && npx tailwindcss - i ./src/index.css -o ./dist/bundle.css",
-    "test": "jest"
+    "test": "jest",
+    "cypress:open": "cypress open"
   },
   "author": "Denis Fedotov",
   "license": "ISC",
@@ -38,6 +39,7 @@
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/plugin-replace": "^5.0.5",
     "@storybook/react-vite": "^7.6.12",
+    "cypress": "^13.6.4",
     "eslint": "^8.56.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^9.1.0",
