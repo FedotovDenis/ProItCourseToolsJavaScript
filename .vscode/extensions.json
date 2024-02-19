@@ -1,0 +1,7 @@
+{
+  "recommendations": [
+    "tabnine.tabnine-vscode",
+    "huggingface.huggingface-vscode",
+    "ritwickdey.liveserver"
+  ]
+}

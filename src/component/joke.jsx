@@ -14,7 +14,7 @@ function Joke() {
 
   return (
     <div>
-      <p>Hi, {user.name}</p>
+      <p>Hi, {user?.name}</p>
       <p>Joke: {data.value}</p>
     </div>
   );
